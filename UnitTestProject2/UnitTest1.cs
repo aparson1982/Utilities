@@ -23,9 +23,7 @@ namespace UnitTestProject2
         [TestMethod]
         public void TestTrace()
         {
-            //Console.WriteLine(NetworkTroubleshooter.TraceRoute("SWWDJSTSQLDEV", 30, 15));
-            //Console.WriteLine(NetworkCommands.PingHost("SWWDJSTSQLDEV"));
-            
+           
             Console.WriteLine(NetworkCommands.Tracert("192.168.1.99"));
         }
 
